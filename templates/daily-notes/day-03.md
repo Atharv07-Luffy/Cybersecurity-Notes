@@ -35,11 +35,11 @@
 | `ss -tuln` | |
 
 ## HTTP status codes
-
-- 2xx:
-- 3xx:
-- 4xx:
-- 5xx:
+- 100-199: INFO
+- 200-299: SUCCESS
+- 300-399: REDIRECTION
+- 400-499: CLIENT ERRORS
+- 500-599: SERVER ERRORS
 
 ## Things I noticed
 - `http://example.com` returned 200 with no redirect to HTTPS
